@@ -1,0 +1,49 @@
+/**
+ * Theme Name: Тестовое задание
+ * Template: twentysixteen
+ */
+
+.estate-objects .card{
+    min-height: 565px;
+}
+.estate-objects .card .thumbnail{
+    width: 100%;
+    height: 230px;
+    overflow: hidden;
+}
+.estate-objects .card .thumbnail .hvr__images {
+  position: relative;
+}
+
+.estate-objects .card .thumbnail .hvr__sectors {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+}
+
+.estate-objects .card .thumbnail .hvr__sector {
+  flex-grow: 1;
+}
+.estate-objects .card .thumbnail img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.estate-objects .card .card-body a.title-link{
+    text-decoration: none;
+    color: #000;
+}
+.estate-objects .card .card-body a.title-link{
+    font-size: 1.5rem;
+}
+.estate-objects .card .card-body ul.details{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.estate-objects .card .card-body ul.details li span{
+    font-weight: bold;
+}
